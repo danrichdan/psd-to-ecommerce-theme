@@ -1,0 +1,26 @@
+.ribbon {
+    display: grid;
+    grid-template-columns: repeat(5, minmax(min-content, 38.4rem));
+    grid-template-rows: minmax(min-content, 38.4rem);
+    justify-content: center;
+    overflow: hidden;
+    // display: flex;
+
+
+    &__box {
+        height: 38.4rem;
+        width: 38.4rem;
+
+        &--light-grey {
+            background-color: $color-grey-light-1;
+        }
+
+        &--mid-grey {
+            background-color: $color-grey-mid-1;
+        }
+
+        &--dark-grey {
+            background-color: $color-grey-dark-1;
+        }
+    }
+}

@@ -1,0 +1,32 @@
+.breadcrumb {
+    background-color: $color-grey-light-1;
+    padding: 1rem 0;
+    font-size: 1.2rem;
+    border-bottom: 1px solid $color-grey-light-1;
+
+    &__list {
+        display: flex;
+        align-items: center;
+    }
+
+    &__item {
+        &:not(:last-child) {
+            margin-right: .25rem;
+        }
+    }
+
+    &__link {
+        &:link,
+        &:visited {
+            color: $color-grey-mid-1;           
+        }
+
+        &--active {
+            &:link,
+            &:visited {
+                color: $color-black-1;
+            }
+        }
+    
+    }
+}

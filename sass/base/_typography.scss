@@ -1,0 +1,39 @@
+%heading {
+    text-transform: uppercase;
+    font-weight: 700;
+    color: $color-black-1;
+}
+
+.heading-primary {
+    @extend %heading;
+    font-size: 3.6rem;
+}
+
+.heading-secondary {
+    @extend %heading;
+    font-size: 2.8rem;
+}
+
+.heading-products {
+    font-size: 2.8rem;
+    color: $color-black-1;
+    line-height: 1;
+}
+
+.heading-tertiary {
+    @extend %heading;
+    font-size: 2.1rem;
+}
+
+.heading-quaternary {
+    @extend %heading;
+    font-size: 1.4rem;
+}
+
+.paragraph {
+    font-size: 1.4rem;
+}
+
+.arrow {
+    cursor: pointer;
+}

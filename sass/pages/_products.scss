@@ -1,0 +1,94 @@
+.products {
+    .container {
+        display: flex;
+    }
+
+    .sidebar {
+        flex: 0 1 25%;
+    }
+
+    .results-header {
+
+        &__sorting {
+            display: flex;
+            justify-content: space-between;
+            background-color: $color-grey-light-1;
+            padding: 1rem 2rem;
+
+            &--sort {
+                color: $color-black-1;
+
+                .arrow {
+                    margin-left: 1rem;
+                    font-size: .75rem;
+                }
+            }
+        }
+
+        &__active-filters {
+            display: flex;
+    
+            &--header {
+                margin-right: 2.5rem;
+            }
+            .paragraph {
+                text-transform: uppercase;
+                font-weight: 200;
+                color: $color-black-1;
+            }
+        }
+    }   
+
+    .pagination {
+        padding-top: .75rem;
+        font-size: 1.2rem;
+        border-top: 1px solid $color-grey-light-1;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .arrow {
+            font-size: .75rem;
+        }
+    }
+
+    .pagination-controls {
+        display: flex;
+        align-items: center;
+        color: $color-black-1;
+    }
+
+    .page-numbers {
+        display: flex;
+        margin-right: 3rem;
+        margin-left: 3.5rem;
+
+        li {
+            background-color: $color-black-1;
+            color: $color-white-1;
+            padding: .5rem 1rem;
+            margin: .5rem;
+            cursor: pointer;
+        }
+    }
+
+    .next{
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+
+        .arrow {
+            margin-left: 1rem;
+        }
+    }
+
+    .previous {
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+
+        .arrow {
+            margin-right: 1rem;
+        }
+    }
+}

@@ -1,0 +1,48 @@
+.card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &:not(:last-child) {
+        border-bottom: 1px solid $color-grey-light-1;
+    }
+
+    &__img {
+        background-color: $color-grey-light-1;
+        width: 10.5rem;
+        height: 14rem;
+    }
+
+    &__details {
+        color: $color-black-1;
+        .label {
+            color: $color-grey-mid-2;
+        }
+
+    }
+
+    &__quantity {
+        border: 1px solid $color-grey-light-1;
+        width: 5rem;
+        font-size: 1.4rem;
+    }
+
+    .close {
+        background-color: $color-grey-light-1;
+        color: $color-black-1;
+        height: 2.5rem;
+        width: 2.5rem;
+        border-radius: 100%;
+        font-size: 1.5rem;
+        font-weight: bold;
+        position: relative;
+        cursor: pointer;
+        
+        span {
+            position: absolute;
+            transform: translate(-55%, -52%);
+            top: 50%;
+            left: 50%;
+        }
+    }
+}

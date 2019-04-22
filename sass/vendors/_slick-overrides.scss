@@ -1,0 +1,62 @@
+.slick-track {
+    height: 66.2rem;
+}
+
+.slick-dots {
+    bottom: 5.5rem; 
+    position: relative;
+    display: flex;
+}
+
+.slick-dots li {
+    margin: 0 2px;
+}
+
+.slick-initialized .slick-slide {
+    display: flex;
+}
+
+.slick-dots li button:before {
+    font-size: 12px;
+}
+
+.slick-prev,
+.slick-next  {
+    color: black;
+}
+
+// .slick-prev {
+//     left: 3rem;
+// }
+
+// .slick-next {
+//     right: 3.5rem;
+// }
+
+
+.arrow-circle {
+    background-color: $color-white-1;
+    border-radius: 50%;
+    padding: 5px;
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    top: 50%;
+    cursor: pointer;
+}
+
+.arrow-circle-next {
+    right: 3rem;
+}
+
+.arrow-circle-prev {
+    left: 3rem;
+}
+
+.arrow-inside {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.2rem;
+}

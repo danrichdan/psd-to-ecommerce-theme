@@ -1,0 +1,32 @@
+.main-offer {
+
+    display: grid;
+    grid-template-rows: 43rem;
+    
+
+    .container {
+        background-color: $color-grey-light-1;
+        display: grid;
+        align-items: center;
+        
+        .content {
+            display: grid;
+            grid-row-gap: 2.5rem;
+            grid-template-columns: 12rem repeat(2, 1fr);
+            grid-template-rows: min-content min-content min-content;
+        }
+
+        .content > * {
+            grid-column: 2 / 3;
+            
+        }
+
+        h2 {
+            line-height: 1;
+        }
+
+        a {
+            justify-self: start;
+        }
+    }
+}

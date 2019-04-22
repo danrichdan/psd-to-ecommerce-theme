@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Muli:400,600,700|Playfair+Display:700" rel="stylesheet">
+    <link rel="stylesheet" href="js/slick/slick.css">
+    <link rel="stylesheet" href="js/slick/slick-theme.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Tzarina | Shopping Cart</title>
+</head>
+<body>
+    <!--BEGIN HEADER SECTION-->
+    <header class="header">
+
+        <!--OFFER SUB-HEADER-->
+        <section class="header__offer u-center-text">
+            <p>
+                <span class="header__offer--icon"><i class="fas fa-truck fa-flip-horizontal"></i></span>
+                <strong>Free domestic shipping </strong>on all orders over $50!
+            </p>
+        </section>
+
+        <!--BEGIN HEADER SUB-SECTION FOR HELPER LINKS-->
+        <section class="header__helpers">
+            <div class="container">
+
+                <!--BEGIN MENUS' CONTAINER-->
+                <nav class="header__helpers--navigation">
+                    <!--STORE-FINDER, ABOUT, CONTACT, DELIVERY LINKS-->
+                    <ul class="header__contact">
+                        
+                        <li class="header__contact--item">
+                            <a href="#" class="header__contact--link">
+                                <span class="header__contact--item-icon">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                </span>
+                                Store Finder
+                            </a>
+                        </li>
+
+                        <li class="header__contact--item">
+                            <a href="#" class="header__contact--link">
+                                <span class="header__contact--item-icon">
+                                    <i class="fas fa-address-card"></i>
+                                </span>
+                                About Us
+                            </a>
+                        </li>
+
+                        <li class="header__contact--item">
+                            <a href="#" class="header__contact--link">
+                                <span class="header__contact--item-icon">
+                                    <i class="fas fa-envelope"></i>
+                                </span>
+                                Contact Us
+                            </a>
+                        </li>
+
+                        <li class="header__contact--item">
+                            <a href="#" class="header__contact--link">
+                                <span class="header__contact--item-icon">
+                                    <i class="fas fa-question-circle"></i>
+                                </span>
+                                Delivery
+                            </a>
+                        </li>
+                    </ul>
+
+                    <!--CURRENCY AND LANGUAGE-->
+                    <ul class="header__country">
+                        <li class="header__country--item">
+                            Currency: USD $
+                            <span><i class="fas fa-chevron-down"></i></span></li>
+                        </li>
+                        <li class="header__country--item">
+                            Language: English
+                            <span><i class="fas fa-chevron-down"></i></span></li>
+                        </li>
+                    </ul>
+                </nav>
+                <!--END MENUS' CONTAINER-->
+
+            </div>
+        </section>
+        <!--END HEADER SUB-SECTION FOR HELPER LINKS-->
+
+        <!--LOGO SECTION-->
+        <section class="header__logo u-center-text">
+            <h1 class="header__logo--text">Tzarina</h1>
+        </section>
+
+        <section class="header__main-nav">
+            <div class="container">
+                <!--BEGIN NAVIGATION-->
+                <nav class="header__navigation"> 
+                    <!--BEGIN MAIN NAVIGATION-->
+                    <ul class="header__navigation--list">
+                        <li class="header__navigation--item">
+                            <a href="#" class="header__navigation--link">Top</a>
+                        </li>
+                        <li class="header__navigation--item">
+                            <a href="#" class="header__navigation--link">Dresses</a>
+                        </li>
+                        <li class="header__navigation--item">
+                            <a href="#" class="header__navigation--link">Blouses</a>
+                        </li>
+                        <li class="header__navigation--item">
+                            <a href="#" class="header__navigation--link">T-Shirts</a>
+                        </li>
+                        <li class="header__navigation--item">
+                            <a href="#" class="header__navigation--link">Outerwear</a>
+                        </li>
+                        <li class="header__navigation--item">
+                            <a href="#" class="header__navigation--link">Warm Clothes</a>
+                        </li>
+                    </ul>
+                    <!--END MAIN NAVIGATION-->
+
+                    <!--BEGIN SEARCH, SIGN IN, SHOPPING CART SECTION-->
+                    <ul class="header__navigation--user-links">
+                        <li class="header__navigation--user-links-item">
+                            <span><i class="fas fa-search"></i></span> Search
+                        </li>
+                        <li class="header__navigation--user-links-item">
+                            <span><i class="fas fa-user"></i></span> Sign in
+                        </li>
+                        <li class="header__navigation--user-links-item">
+                            <span><i class="fas fa-shopping-basket"></i></span>( 1 )
+                        </li>
+                    </ul>
+                    <!--END SEARCH, SIGN IN, SHOPPING CART SECTION-->                  
+                </nav>
+                <!--END NAVIGATION-->
+            </div>
+        </section>
+    </header>
+    <!--END HEADER SECTION-->
+
+    <!--BEGIN MAIN CONTENT SECTION-->
+    <section class="shopping-cart u-margin-bottom-huge">
+        <div class="container">
+            <div class="shopping-cart__header">
+                <h2 class="heading-products">
+                    Shopping cart
+                </h2>
+            </div>
+            <div class="shopping-cart__body">
+                <div class="shopping-cart__cards u-margin-bottom-large">
+
+                    <!--Card Start-->
+                    <div class="card u-margin-bottom-tiny">
+                        <div class="card__img"></div>
+                        <ul class="card__details u-margin-bottom-medium">
+                            <li class="card__details--name paragraph">
+                                Flowy embroidered shirt dress
+                            </li>
+                            <li class="card__details--price heading-tertiary u-margin-bottom-small">
+                                $30.00
+                            </li>
+                            <li class="card__details--detail paragraph">
+                                <span class="label">Size: </span>
+                                S
+                            </li>
+                            <li class="card__details--detail paragraph">
+                                <span class="label">Color: </span>
+                                Blue
+                            </li>
+                        </ul>
+                        <input class="card__quantity" type="number" name="quantity" min="1" max="5">
+                        <div class="card__price heading-tertiary">$30.00</div>
+                        <span class="close">
+                            <span>X</span>
+                            <!-- <i class="fas fa-times-circle"></i> -->
+                        </span>
+                    </div>
+                    <!--Card End-->
+
+                    <!--Card Start-->
+                    <div class="card u-margin-bottom-tiny">
+                        <div class="card__img"></div>
+                        <ul class="card__details u-margin-bottom-medium">
+                            <li class="card__details--name paragraph">
+                                Flowy embroidered shirt dress
+                            </li>
+                            <li class="card__details--price heading-tertiary u-margin-bottom-small">
+                                $30.00
+                            </li>
+                            <li class="card__details--detail paragraph">
+                                <span class="label">Size: </span>
+                                S
+                            </li>
+                            <li class="card__details--detail paragraph">
+                                <span class="label">Color: </span>
+                                Blue
+                            </li>
+                        </ul>
+                        <input class="card__quantity" type="number" name="quantity" min="1" max="5">
+                        <div class="card__price heading-tertiary">$30.00</div>
+                        <span class="close">
+                            <span>X</span>
+                            <!-- <i class="fas fa-times-circle"></i> -->
+                        </span>
+                    </div>
+                    <!--Card End-->
+
+                    <!--Card Start-->
+                    <div class="card u-margin-bottom-tiny">
+                        <div class="card__img"></div>
+                        <ul class="card__details u-margin-bottom-medium">
+                            <li class="card__details--name paragraph">
+                                Flowy embroidered shirt dress
+                            </li>
+                            <li class="card__details--price heading-tertiary u-margin-bottom-small">
+                                $30.00
+                            </li>
+                            <li class="card__details--detail paragraph">
+                                <span class="label">Size: </span>
+                                S
+                            </li>
+                            <li class="card__details--detail paragraph">
+                                <span class="label">Color: </span>
+                                Blue
+                            </li>
+                        </ul>
+                        <input class="card__quantity" type="number" name="quantity" min="1" max="5">
+                        <div class="card__price heading-tertiary">$30.00</div>
+                        <span class="close">
+                            <span>X</span>
+                            <!-- <i class="fas fa-times-circle"></i> -->
+                        </span>
+                    </div>
+                    <!--Card End-->
+
+                </div>
+
+                <!--Checkout Area-->
+                <div class="shopping-cart__checkout">
+                    <div class="shopping-cart__bill u-margin-bottom-small">
+                        <ul class="shopping-cart__bill--list u-margin-bottom-medium-large">
+                            <li class="shopping-cart__item">
+                                <span class="label">2 items</span>
+                                <span class="price">$42.95</span>
+                            </li>
+                            <li class="shopping-cart__item">
+                                <span class="label">Shipping</span>
+                                <span class="price">$7.00</span>
+                            </li>
+                            <li class="shopping-cart__item">
+                                <span class="label">Taxes</span>
+                                <span class="price">$0.00</span>
+                            </li>
+                            <li class="shopping-cart__divider"></li>
+                            <li class="shopping-cart__item total">
+                                <span class="label">Total</span>
+                                <span class="price">$59.95</span>
+                            </li>
+                        </ul>
+                        <a href="#" class="btn btn--black">Proceed to checkout</a>
+                    </div>
+
+                    <!--Support links-->
+                    <div class="shopping-cart__support-links">
+                        <div class="discount">
+                            <span>
+                                <i class="fas fa-gift"></i>
+                            </span>
+                            <p class="paragraph">Discount system</p>
+                        </div>
+                        <div class="delivery">
+                            <span>
+                                <i class="fas fa-truck fa-flip-horizontal"></i>
+                            </span>
+                            <p class="paragraph">Free delivery</p>
+                        </div>
+                        <div class="support">
+                            <span>
+                                <i class="fas fa-life-ring"></i>
+                            </span>
+                            <p class="paragraph">Support 24/7</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn btn--grey">Continue shopping</a>
+            
+        </div>
+    </section>
+    <!--END MAIN CONTENT SECTION-->
+
+    <!--BEGIN FOOTER SECTION-->
+    <footer class="footer">
+        <!--BEGIN SUPER FOOTER-->
+        <div class="footer__super-footer">
+            <div class="container">
+
+                <!--CONTACT INFO-->
+                <ul class="footer__contacts">
+                    <li><h4 class="heading-quaternary">Contacts</h4></li>
+                    <li><a href="#">8-100-9000-300</a></li>
+                    <li><a href="#">United States</a></li>
+                    <li>Email us: <a href="mailto:hello@plane.com">hello@plane.com</a></li>
+                </ul>
+
+                <!--OUR COMPANY LINKS-->
+                <ul class="footer__our-company">
+                    <li><h4 class="heading-quaternary">Our Company</h4></li>
+                    <li><a href="#">Delivery</a></li>
+                    <li><a href="#">Legal Notice</a></li>
+                    <li><a href="#">Terms and conditions of use</a></li>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Secure payment</a></li>
+                    <li><a href="#">Contact us</a></li>
+                    <li><a href="#">Sitemap</a></li>
+                    <li><a href="#">Stores</a></li>
+                </ul>
+                
+                <!--YOUR ACCOUNT LINKS-->
+                <ul class="footer__your-account">
+                    <li><h4 class="heading-quaternary">Your Account</h4></li>
+                    <li><a href="#">Addresses</a></li>
+                    <li><a href="#">Credit slips</a></li>
+                    <li><a href="#">Orders</a></li>
+                    <li><a href="#">Personal info</a></li>
+                </ul>
+
+                <!--NEWSLETTER-->
+                <ul class="footer__newsletter">
+                    <li><h4 class="heading-quaternary">Our Newsletter</h4></li>
+                    <li><p>Register now with our newsletter and get the latest update available</p></li>
+                    <li class="footer__newsletter--form">
+                        <input class="footer__newsletter--form-field" type="text" placeholder="Enter your email">
+                        <button class="footer__newsletter--btn">
+                            <i class="fas fa-location-arrow"></i>
+                        </button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!--END SUPER FOOTER-->
+
+        <!--BEGIN BOTTOM FOOTER-->
+        <div class="footer__bottom-footer">
+            <div class="container">
+
+                <!--SOCIAL LINKS-->
+                <ul class="footer__social">
+                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fas fa-rss"></i></a></li>
+                    <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                    <li><a href="#"><i class="fab fa-pinterest"></i></a></li>
+                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                </ul>
+
+                <!--COPYRIGHT INFO-->
+                <p class="copyright"><span>&copy;2018</span> - Ecommerce software by PrestaShop<sup>TM</sup></p>
+
+                <!--PAYMENT METHODS ACCEPTED-->
+                <ul class="footer__payment-methods-accepted">
+                    <li><i class="fab fa-cc-visa"></i></li>
+                    <li><i class="fab fa-cc-mastercard"></i></li>
+                    <li><i class="fab fa-cc-paypal"></i></li>
+                    <li><i class="fab fa-cc-amex"></i></li>
+                </ul>
+            </div>
+            <!--ED BOTTOM FOOTER-->
+        </div>
+    </footer>
+    <!--END FOOTER SECTION-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/sticky/jquery.sticky.js"></script>
+    <script src="js/slick/slick.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

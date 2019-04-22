@@ -1,0 +1,149 @@
+.header {
+    
+    &__offer {
+        background-color: $color-black-1;
+        color: $color-white-1;
+        padding: 1rem 0;
+        font-size: 1.5rem;
+
+        &--icon {
+            margin-right: .75rem;
+        }
+    }
+
+    &__logo {
+        color: $color-black-1;
+        border-top: 1px solid $color-grey-light-1;
+        border-bottom: 1px solid $color-grey-light-1;
+        padding: 2rem 0;
+        background-color: $color-white-1;
+        z-index: 200;
+
+        &--text {
+            font-family: $font-display;
+            font-size: 4.5rem;
+            text-transform: uppercase;
+            letter-spacing: .5rem;
+            transition: all .3s;
+        }
+    }
+
+    .is-sticky .header__logo {
+        padding: 1.5rem 0;
+    }
+
+    .is-sticky .header__logo--text {
+        font-size: 3.75rem;
+    }
+
+    &__helpers--navigation {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 1.2rem;
+        padding: 1rem 0;
+    }
+
+    &__contact {
+        display: flex;
+        
+        &--item:not(:last-child) {
+            margin-right: 3rem;
+        }
+        
+        &--link {
+            &:link,
+            &:visited {
+                color: $color-grey-dark-1;
+            }
+            
+        }
+
+        &--item-icon {
+            padding-right: .5rem;
+        }
+
+    }
+
+    &__country {
+        display: flex;
+
+        &--item {
+            cursor: pointer;
+        }
+
+        &--item:not(:last-child) {
+            margin-right: 3rem;
+        }
+
+        i {
+            font-size: 1rem;
+            padding-left: .25rem;
+        }
+    }
+
+    .is-sticky .header__main-nav {
+        z-index: 100;
+        background-color: $color-white-1;
+        transition: all .3s;
+        
+    }
+
+    .is-sticky .header__navigation--item {
+        transition: all .3s;
+    }
+
+    .is-sticky .header__main-nav {
+        padding: 2rem;
+    }
+
+    .is-sticky .header__navigation--item {
+        font-size: 1.3rem;
+    }
+
+    &__main-nav {
+        border-bottom: 1px solid $color-grey-light-1;
+        padding: 3rem 0;
+    }
+
+    &__navigation {     
+        display: flex;     
+        align-items: center;
+        // margin-top: .5rem;
+
+        &--list {
+            display: flex;
+            margin-right: auto;
+            line-height: 1;
+        }
+
+        &--item {
+            text-transform: uppercase;
+            font-size: 1.4rem;
+            
+            &:not(:last-child) {
+                margin-right: 4rem;
+            }
+        }
+
+        &--link {
+            &:link,
+            &:visited {
+                color: $color-black-1;
+            }
+        }
+
+        &--user-links {
+            display: flex;
+            font-size: 1.2rem;
+
+            span {
+                padding-right: .5rem;
+            }
+        }
+
+        &--user-links-item:not(:last-child) {
+            margin-right: 3rem;
+        }
+    }
+}

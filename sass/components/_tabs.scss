@@ -1,0 +1,29 @@
+.tabs {
+    &__header{
+        font-size: 1.4rem;
+        text-transform: uppercase;
+        display: flex;
+    }
+
+    &__link {
+        padding: 2.5rem 3rem;
+        background-color: $color-grey-light-1;
+        border: 1px solid $color-grey-light-1;
+
+        &:not(:last-child) {
+            margin-right: .5rem;
+        }
+    }
+
+    &__link.active {
+        background-color: $color-white-1;
+        border-bottom: none;
+        transform: translateY(1px);
+        
+    }
+
+    &__content {
+        padding: 3rem 3rem 4rem;
+        border: 1px solid $color-grey-light-1;
+    }
+}

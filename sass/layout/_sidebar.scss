@@ -1,0 +1,44 @@
+.sidebar {
+    margin-right: 5rem;
+    color: $color-black-1;
+
+    &__clothing-types {
+        .item-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        li:not(:last-child) {
+            margin-bottom: 1rem;
+        }
+
+        a:link,
+        a:visited {
+            font-size: 1.2rem;
+            color: $color-grey-mid-2;
+        }
+    }
+
+    &__filter-by {
+   
+        h5 {
+            font-weight: 100;
+            
+            margin-bottom: .75rem;
+        }
+
+        .form-group {
+            margin-bottom: .5rem;
+            font-size: 1.2rem;
+            display: flex;
+            align-items: center;
+            
+
+            input {
+                margin-right: 1rem;
+                cursor: pointer;
+            }
+        }
+    }
+}
